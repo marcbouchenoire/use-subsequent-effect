@@ -1,10 +1,10 @@
 import { renderHook } from "@testing-library/react-hooks"
-import { useEffect as useDefaultEffect, useLayoutEffect } from "react"
+import { useEffectType } from "../types"
 
 export const createSubsequentEffectTests = (
   name: string,
-  useSubsequentEffect: typeof useDefaultEffect | typeof useLayoutEffect,
-  useEffect: typeof useDefaultEffect | typeof useLayoutEffect
+  useSubsequentEffect: useEffectType,
+  useEffect: useEffectType
 ) => {
   describe(name, () => {
     test("should skip the first render", () => {
