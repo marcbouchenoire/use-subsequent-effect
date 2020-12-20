@@ -9,7 +9,7 @@ import {
 export const createSubsequentEffect = (
   useEffect: typeof useDefaultEffect | typeof useLayoutEffect
 ) => {
-  return (effect: EffectCallback, deps?: DependencyList) => {
+  return (effect: EffectCallback, deps?: DependencyList): void => {
     const isSubsequent = useRef(false)
 
     useEffect((...args) => {
