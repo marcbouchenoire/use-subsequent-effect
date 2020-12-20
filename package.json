@@ -1,0 +1,39 @@
+{
+  "name": "use-subsequent-effect",
+  "version": "0.0.0",
+  "description": "A React useEffect variant that skips the initial render.",
+  "author": "Marc Bouchenoire",
+  "license": "MIT",
+  "repository": "https://github.com/bouchenoiremarc/use-subsequent-effect",
+  "keywords": [
+    "react",
+    "hook",
+    "subsequent",
+    "initial",
+    "effect"
+  ],
+  "files": [
+    "dist",
+    "src"
+  ],
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/use-subsequent-effect.esm.js",
+  "typings": "dist/use-subsequent-effect.d.ts",
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "prepare": "yarn build"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "prettier": "^2.2.1",
+    "react": "^17.0.1",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.0.3",
+    "typescript": "^4.1.3"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  }
+}
