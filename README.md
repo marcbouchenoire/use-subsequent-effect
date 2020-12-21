@@ -47,6 +47,10 @@ useSubsequentEffect(() => {
 }, [dependency])
 ```
 
+## ESLint
+
+If you are using [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks), there's no need to specify a custom `additionalHooks` list. The `react-hooks/exhaustive-deps` rule already works out-of-the-box on all effect hooks (`/Effect($|[^a-z])/g`).
+
 ## License
 
 `use-subsequent-effect` is released under the [MIT](https://github.com/bouchenoiremarc/use-subsequent-effect/blob/main/LICENSE) license.
