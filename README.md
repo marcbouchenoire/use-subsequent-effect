@@ -20,7 +20,7 @@ npm install use-subsequent-effect
 
 ## Usage
 
-Import `useSubsequentEffect` or `useSubsequentLayoutEffect`.
+Import `useSubsequentEffect`, `useSubsequentLayoutEffect` or `useSubsequentIsomorphicLayoutEffect`.
 
 ```tsx
 import { useSubsequentEffect } from "use-subsequent-effect"

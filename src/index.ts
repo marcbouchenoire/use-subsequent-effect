@@ -1,1 +1,5 @@
-export { useSubsequentEffect, useSubsequentLayoutEffect } from "./hooks"
+export {
+  useSubsequentEffect,
+  useSubsequentIsomorphicLayoutEffect,
+  useSubsequentLayoutEffect
+} from "./hooks"
