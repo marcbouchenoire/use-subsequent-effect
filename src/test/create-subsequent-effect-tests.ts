@@ -7,7 +7,7 @@ export const createSubsequentEffectTests = (
   useEffect: useEffectType
 ) => {
   describe(name, () => {
-    test("should skip the first render", () => {
+    test("should skip the initial render", () => {
       let subsequentRenders = 0
       let renders = 0
 
