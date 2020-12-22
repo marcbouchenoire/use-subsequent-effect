@@ -1,8 +1,8 @@
-import { createSubsequentEffectTests } from "../test"
+import { createSubsequentEffectTests } from "../create-subsequent-effect-tests"
 import {
   useIsomorphicLayoutEffect,
   useSubsequentIsomorphicLayoutEffect
-} from "./use-subsequent-isomorphic-layout-effect"
+} from "../../src/hooks/use-subsequent-isomorphic-layout-effect"
 
 createSubsequentEffectTests(
   "useSubsequentLayoutEffect",

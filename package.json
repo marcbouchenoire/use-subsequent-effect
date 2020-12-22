@@ -21,8 +21,8 @@
   "module": "dist/use-subsequent-effect.esm.js",
   "typings": "dist/use-subsequent-effect.d.ts",
   "scripts": {
-    "start": "tsdx watch",
-    "build": "tsdx build",
+    "start": "tsdx watch --tsconfig tsconfig.build.json",
+    "build": "tsdx build --tsconfig tsconfig.build.json",
     "test": "tsdx test",
     "lint": "eslint src --fix",
     "prepare": "yarn build",

@@ -1,5 +1,5 @@
 import { renderHook } from "@testing-library/react-hooks"
-import { useEffectType } from "../types"
+import { useEffectType } from "../src/types"
 
 export const createSubsequentEffectTests = (
   name: string,
