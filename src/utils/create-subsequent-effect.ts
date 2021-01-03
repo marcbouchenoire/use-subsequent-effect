@@ -11,6 +11,6 @@ export const createSubsequentEffect = (useEffect: useEffectType) => {
       } else {
         isSubsequent.current = true
       }
-    }, dependencies)
+    }, dependencies) // eslint-disable-line react-hooks/exhaustive-deps
   }
 }
