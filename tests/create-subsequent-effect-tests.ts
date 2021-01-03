@@ -1,11 +1,11 @@
 import { renderHook } from "@testing-library/react-hooks"
 import { useEffectType } from "../src/types"
 
-export const createSubsequentEffectTests = (
+export function createSubsequentEffectTests(
   name: string,
   useSubsequentEffect: useEffectType,
   useEffect: useEffectType
-) => {
+) {
   describe(name, () => {
     test("should skip the initial render", () => {
       let subsequentRenders = 0
