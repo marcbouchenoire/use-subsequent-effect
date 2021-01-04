@@ -16,6 +16,7 @@
     "dist",
     "src"
   ],
+  "sideEffects": false,
   "source": "./src/index.ts",
   "main": "./dist/use-subsequent-effect.js",
   "umd:main": "./dist/use-subsequent-effect.umd.js",
