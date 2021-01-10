@@ -23,7 +23,8 @@
   "module": "./dist/use-subsequent-effect.module.js",
   "exports": "./dist/use-subsequent-effect.modern.js",
   "esmodule": "./dist/use-subsequent-effect.modern.js",
-  "typings": "./dist/use-subsequent-effect.d.ts",
+  "esnext": "./dist/use-subsequent-effect.modern.js",
+  "types": "./dist/use-subsequent-effect.d.ts",
   "scripts": {
     "build": "microbundle --tsconfig tsconfig.build.json",
     "clean": "jest --clearCache && rimraf node_modules",
