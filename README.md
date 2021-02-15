@@ -30,19 +30,10 @@ Use it as a drop-in `use(Layout)Effect` replacement.
 
 ```tsx
 useSubsequentEffect(() => {
-  /**
-   * ⏭
-   *
-   * Skipping the initial render, only running
-   * when `dependency` explicitly changes and onwards.
-   */
+  dependency.update()
 
   return () => {
-    /**
-     * 🧹
-     *
-     * Cleaning up from the second render and onwards.
-     */
+    dependency.clean()
   }
 }, [dependency])
 ```
