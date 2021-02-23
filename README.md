@@ -6,13 +6,21 @@
 
 ## Installation
 
-#### With yarn
+#### Skypack
+
+```html
+<script type="module">
+  import { useSubsequentEffect } from "https://cdn.skypack.dev/use-subsequent-effect"
+</script>
+```
+
+#### Yarn
 
 ```sh
 yarn add use-subsequent-effect
 ```
 
-#### With npm
+#### npm
 
 ```sh
 npm install use-subsequent-effect
