@@ -33,8 +33,10 @@ export function createSubsequentEffectTests(
       let cleanups = 0
 
       const { rerender, unmount } = renderHook(() => {
-        useSubsequentEffect(() => () => {
-          subsequentCleanups += 1
+        useSubsequentEffect(() => {
+          return () => {
+            subsequentCleanups += 1
+          }
         })
 
         useEffect(() => () => {
