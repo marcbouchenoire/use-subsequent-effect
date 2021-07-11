@@ -6,6 +6,7 @@ export function createSubsequentEffectTests(
   useSubsequentEffect: useEffectType,
   useEffect: useEffectType
 ) {
+  // eslint-disable-next-line jest/valid-title
   describe(name, () => {
     test("should skip the initial render", () => {
       let subsequentRenders = 0
