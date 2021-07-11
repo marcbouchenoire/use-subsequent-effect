@@ -2,7 +2,7 @@
 
 ⏭ A `use(Layout)Effect` variant hook that skips the initial render.
 
-[![npm](https://img.shields.io/npm/v/use-subsequent-effect?color=%2385f)](https://www.npmjs.com/package/use-subsequent-effect) [![gzipped](https://img.shields.io/bundlephobia/minzip/use-subsequent-effect?label=gzipped&color=%23d5e)](https://www.npmjs.com/package/use-subsequent-effect) [![license](https://img.shields.io/github/license/bouchenoiremarc/use-subsequent-effect?color=%23e48)](https://github.com/bouchenoiremarc/use-subsequent-effect/blob/main/LICENSE)
+[![build](https://github.com/bouchenoiremarc/use-subsequent-effect/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/bouchenoiremarc/use-subsequent-effect/actions/workflows/ci.yml) [![npm](https://img.shields.io/npm/v/use-subsequent-effect?color=%230cf)](https://www.npmjs.com/package/use-subsequent-effect) [![gzipped](https://img.shields.io/bundlephobia/minzip/use-subsequent-effect?label=gzipped&color=%2385f)](https://www.npmjs.com/package/use-subsequent-effect) [![license](https://img.shields.io/github/license/bouchenoiremarc/use-subsequent-effect?color=%23e4b)](https://github.com/bouchenoiremarc/use-subsequent-effect/blob/main/LICENSE)
 
 ## Installation
 
