@@ -3,8 +3,5 @@
     "@bouchenoiremarc/eslint-config",
     "@bouchenoiremarc/eslint-config/jest",
     "@bouchenoiremarc/eslint-config/react"
-  ],
-  "rules": {
-    "jest/no-export": "off"
-  }
+  ]
 }

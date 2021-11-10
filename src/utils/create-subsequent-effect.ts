@@ -1,4 +1,4 @@
-import { EffectCallback, DependencyList, useRef } from "react"
+import { DependencyList, EffectCallback, useRef } from "react"
 import { useEffectType } from "../types"
 
 export function createSubsequentEffect(useEffect: useEffectType) {

@@ -1,3 +1,4 @@
+/* eslint-disable jest/no-export, jest/valid-title */
 import { renderHook } from "@testing-library/react-hooks"
 import { useEffectType } from "../src/types"
 
@@ -6,7 +7,6 @@ export function createSubsequentEffectTests(
   useSubsequentEffect: useEffectType,
   useEffect: useEffectType
 ) {
-  // eslint-disable-next-line jest/valid-title
   describe(name, () => {
     test("should skip the initial render", () => {
       let subsequentRenders = 0
