@@ -8,21 +8,19 @@
 
 #### Skypack
 
-```html
-<script type="module">
-  import { useSubsequentEffect } from "https://cdn.skypack.dev/use-subsequent-effect"
-</script>
+```javascript
+import { useSubsequentEffect } from "https://cdn.skypack.dev/use-subsequent-effect"
 ```
 
 #### Yarn
 
-```sh
+```bash
 yarn add use-subsequent-effect
 ```
 
 #### npm
 
-```sh
+```bash
 npm install use-subsequent-effect
 ```
 
@@ -30,13 +28,13 @@ npm install use-subsequent-effect
 
 Import `useSubsequentEffect`, `useSubsequentLayoutEffect` or `useSubsequentIsomorphicLayoutEffect`.
 
-```tsx
+```typescript
 import { useSubsequentEffect } from "use-subsequent-effect"
 ```
 
 Use it as a drop-in `use(Layout)Effect` replacement.
 
-```tsx
+```typescript
 useSubsequentEffect(() => {
   dependency.update()
 
