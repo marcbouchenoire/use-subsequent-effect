@@ -1,14 +1,15 @@
-/* eslint-disable jest/no-export, jest/valid-title */
 import { renderHook } from "@testing-library/react-hooks"
+import * as assert from "uvu/assert"
 import { useEffectType } from "../src/types"
+import { describe } from "./helpers"
 
 export function createSubsequentEffectTests(
   name: string,
   useSubsequentEffect: useEffectType,
   useEffect: useEffectType
 ) {
-  describe(name, () => {
-    test("should skip the initial render", () => {
+  describe(name, (it) => {
+    it("should skip the initial render", () => {
       let subsequentRenders = 0
       let renders = 0
 
@@ -26,10 +27,10 @@ export function createSubsequentEffectTests(
 
       unmount()
 
-      expect(subsequentRenders).toBe(renders - 1)
+      assert.equal(subsequentRenders, renders - 1)
     })
 
-    test("should run a given cleanup function accordingly", () => {
+    it("should run a given cleanup function accordingly", () => {
       let subsequentCleanups = 0
       let cleanups = 0
 
@@ -49,10 +50,10 @@ export function createSubsequentEffectTests(
 
       unmount()
 
-      expect(subsequentCleanups).toBe(cleanups - 1)
+      assert.equal(subsequentCleanups, cleanups - 1)
     })
 
-    test("should never run with an empty dependencies array", () => {
+    it("should never run with an empty dependencies array", () => {
       let subsequentRenders = 0
 
       const { rerender, unmount } = renderHook(() => {
@@ -65,7 +66,7 @@ export function createSubsequentEffectTests(
 
       unmount()
 
-      expect(subsequentRenders).toBe(0)
+      assert.equal(subsequentRenders, 0)
     })
   })
 }
