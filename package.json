@@ -1,6 +1,6 @@
 {
   "name": "use-subsequent-effect",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A use(Layout)Effect variant hook that skips the initial render.",
   "author": "Marc Bouchenoire",
   "license": "MIT",
