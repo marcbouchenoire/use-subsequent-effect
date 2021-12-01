@@ -4,7 +4,7 @@
   "description": "A use(Layout)Effect variant hook that skips the initial render.",
   "author": "Marc Bouchenoire",
   "license": "MIT",
-  "repository": "https://github.com/bouchenoiremarc/use-subsequent-effect",
+  "repository": "https://github.com/marcbouchenoire/use-subsequent-effect",
   "keywords": [
     "react",
     "hook",
@@ -34,7 +34,7 @@
     "./package.json": "./package.json"
   },
   "types": "./dist/index.d.ts",
-  "prettier": "@bouchenoiremarc/prettier-config",
+  "prettier": "@marcbouchenoire/prettier-config",
   "lint-staged": {
     "**/*.mjs": [
       "eslint --fix",
@@ -67,8 +67,8 @@
     "test:coverage": "nyc --temp-dir=.nyc.log --include=src yarn test && nyc report --temp-dir=.nyc.log --reporter=lcov"
   },
   "devDependencies": {
-    "@bouchenoiremarc/eslint-config": "^2.2.1",
-    "@bouchenoiremarc/prettier-config": "^1.1.0",
+    "@marcbouchenoire/eslint-config": "^2.2.1",
+    "@marcbouchenoire/prettier-config": "^1.1.0",
     "@testing-library/react-hooks": "^7.0.2",
     "@types/react": "^17.0.36",
     "eslint": "^8.3.0",
