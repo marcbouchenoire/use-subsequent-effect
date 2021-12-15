@@ -35,7 +35,7 @@
   },
   "types": "./dist/index.d.ts",
   "prettier": "@marcbouchenoire/prettier-config",
-  "lint-staged": {
+  "nano-staged": {
     "**/*.mjs": [
       "eslint --fix",
       "yarn prettier"
@@ -51,7 +51,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "nano-staged"
     }
   },
   "scripts": {
@@ -73,8 +73,8 @@
     "@types/react": "^17.0.36",
     "eslint": "^8.3.0",
     "husky": "4.3.8",
-    "lint-staged": "^12.1.2",
     "microbundle": "^0.14.2",
+    "nano-staged": "^0.5.0",
     "nanospy": "^0.4.0",
     "np": "^7.6.0",
     "nyc": "^15.1.0",
