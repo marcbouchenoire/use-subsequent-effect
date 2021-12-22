@@ -9,7 +9,7 @@ import {
   useSubsequentIsomorphicLayoutEffect
 } from "../../src/hooks/use-subsequent-isomorphic-layout-effect"
 import { createSubsequentEffectTests } from "../create-subsequent-effect-tests"
-import { describe, mock } from "../helpers"
+import { affect, describe } from "../helpers"
 
 describe("createIsomorphicFunction", (it) => {
   it("should return the server argument if window doesn't exist", async () => {
@@ -22,7 +22,7 @@ describe("createIsomorphicFunction", (it) => {
   })
 
   it("should return the client argument if window exists", async () => {
-    const restoreWindow = mock(global, "window", "")
+    const restoreWindow = affect(global, "window", "")
     const useIsomorphicLayoutEffect = createIsomorphicFunction(
       useEffect,
       useLayoutEffect
