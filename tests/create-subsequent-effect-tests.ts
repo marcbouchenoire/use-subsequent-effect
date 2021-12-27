@@ -3,6 +3,13 @@ import * as assert from "uvu/assert"
 import { useEffectType } from "../src/types"
 import { describe } from "./helpers"
 
+/**
+ * Create a suite of tests for an effect hook and its subsequent pair.
+ *
+ * @param name - The name of the suite.
+ * @param useSubsequentEffect - The subsequent effect hook.
+ * @param useEffect - The normal effect hook.
+ */
 export function createSubsequentEffectTests(
   name: string,
   useSubsequentEffect: useEffectType,
