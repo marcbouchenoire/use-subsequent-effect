@@ -16,7 +16,7 @@ export const useIsomorphicLayoutEffect = createIsomorphicFunction(
   useLayoutEffect
 )
 
-/**.
+/**
  * Run an isomorphic layout effect only on subsequent renders.
  *
  * @param effect - A function that can return a cleanup function.
