@@ -2,7 +2,7 @@
 
 ⏭ A `use(Layout)Effect` variant hook that skips the initial render.
 
-[![build](https://img.shields.io/github/workflow/status/marcbouchenoire/use-subsequent-effect/CI)](https://github.com/marcbouchenoire/use-subsequent-effect/actions/workflows/ci.yml)
+[![build](https://img.shields.io/github/actions/workflow/status/marcbouchenoire/use-subsequent-effect/.github/workflows/ci.yml)](https://github.com/marcbouchenoire/use-subsequent-effect/actions/workflows/ci.yml)
 [![npm](https://img.shields.io/npm/v/use-subsequent-effect?color=%230cf)](https://www.npmjs.com/package/use-subsequent-effect)
 [![size](https://img.shields.io/bundlephobia/minzip/use-subsequent-effect?label=size&color=%2385f)](https://bundlephobia.com/package/use-subsequent-effect)
 [![coverage](https://img.shields.io/codecov/c/github/marcbouchenoire/use-subsequent-effect?color=%23e4b)](https://codecov.io/gh/marcbouchenoire/use-subsequent-effect)
