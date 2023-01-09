@@ -1,6 +1,6 @@
 import { renderHook } from "@testing-library/react-hooks"
 import * as assert from "uvu/assert"
-import { useEffectType } from "../src/types"
+import type { useEffectType } from "../src/types"
 import { describe } from "./helpers"
 
 /**
