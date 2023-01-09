@@ -1,5 +1,6 @@
-import { DependencyList, EffectCallback, useRef } from "react"
-import { useEffectType } from "../types"
+import type { DependencyList, EffectCallback } from "react"
+import { useRef } from "react"
+import type { useEffectType } from "../types"
 
 /**
  * Create a subsequent effect hook from a given effect hook.
