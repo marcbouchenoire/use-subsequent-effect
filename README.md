@@ -16,20 +16,6 @@
 
 ## Installation
 
-#### Skypack
-
-```javascript
-import { useSubsequentEffect } from "https://cdn.skypack.dev/use-subsequent-effect"
-```
-
-#### Yarn
-
-```bash
-yarn add use-subsequent-effect
-```
-
-#### npm
-
 ```bash
 npm install use-subsequent-effect
 ```
